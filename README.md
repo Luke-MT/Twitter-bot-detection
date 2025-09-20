@@ -8,3 +8,11 @@ Features: 47 temporal/behavioral features + 384D description embeddings + 768D t
 Temporal Analysis: Posting patterns, inter-tweet intervals, burst detection, Fourier analysis of timing gaps
 Content Processing: Mean embeddings from top-10 recent tweets per user
 Class Imbalance Handling: Weighted training and threshold optimization 
+
+## Setup
+```bash
+git clone <repository-url>
+cd twitter-bot-detection
+
+pip install -r requirements.txt
+```
